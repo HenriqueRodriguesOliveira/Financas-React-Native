@@ -8,3 +8,7 @@ export const Background = styled.SafeAreaView`
 export const Title = styled.Text`
 
 `;
+
+export const ListBalance = styled.FlatList`
+  max-height: 190px;
+`;
