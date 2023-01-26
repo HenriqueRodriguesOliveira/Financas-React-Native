@@ -1,7 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TouchableOpacity, Modal } from 'react-native';
-
-import { AuthContext } from '../../contexts/auth'
 
 import Header from '../../components/Header';
 import { 
