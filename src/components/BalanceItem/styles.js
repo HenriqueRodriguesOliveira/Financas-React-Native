@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
-  background-color: #${props => props.bg};
+export const Container = styled.ImageBackground`
   margin-left: 14px;
   margin-right: 14px;
   border-radius: 4px;
@@ -19,4 +18,5 @@ export const Balance = styled.Text`
   margin-top: 5px;
   font-size: 30px;
   color: #FFF;
+  z-index: 99;
 `;

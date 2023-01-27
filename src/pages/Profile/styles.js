@@ -2,8 +2,10 @@ import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
   flex: 1;
-  background-color: #F0F4FF;
+  background-color: #FFF;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 
 export const Message = styled.Text`
@@ -20,7 +22,7 @@ export const Name = styled.Text`
   color: #121212;
 `;
 export const NewLink = styled.TouchableOpacity`
-  background-color: #3b3dbf;
+  background-color: #000;
   width: 90%;
   height: 45px;
   border-radius: 8px;
@@ -41,10 +43,10 @@ export const LogoutButton = styled.TouchableOpacity`
   height: 45px;
   border-width: 1px;
   border-radius: 8px;
-  border-color: #c62c36;
+  border-color: #000;
 `;
 export const LogoutText = styled.Text`
   font-size: 18px;
   font-weight: bold;
-  color: #c62c36
+  color: #000
 `;

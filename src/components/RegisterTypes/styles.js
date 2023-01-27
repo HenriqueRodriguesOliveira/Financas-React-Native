@@ -18,7 +18,7 @@ export const RegisterTypeButton = styled.TouchableOpacity`
   height: 45px;
   border-radius: 4px;
   border-width: 1.5px;
-  border-color: ${props => props.checked ? '#3b3dbf' : 'transparent'};
+  border-color: ${props => props.checked ? '#000' : 'transparent'};
   margin-bottom: 14px;
 `;
 

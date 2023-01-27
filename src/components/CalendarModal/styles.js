@@ -7,7 +7,7 @@ export const Container = styled.View`
 
 
 export const ModalContent = styled.View`
-  flex: 2;
+  flex: 1;
   justify-content: center;
   background-color: #FFF;
   padding: 14px;
@@ -15,7 +15,7 @@ export const ModalContent = styled.View`
 
 export const ButtonFilter = styled.TouchableOpacity`
   border-radius: 4px;
-  background-color: #3B3DBF;
+  background-color: #000;
   height: 45px;
   align-items: center;
   justify-content: center;

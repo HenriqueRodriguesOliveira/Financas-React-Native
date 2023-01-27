@@ -93,10 +93,10 @@ export default function Home(){
       />
 
       <Area>
-        <TouchableOpacity onPress={() => setModalVisible(true)}>
-          <Icon name="event" color="#121212" size={30} />
+        <Title>Últimas movimentações</Title>
+        <TouchableOpacity onPress={() => setModalVisible(true)} style>
+          <Icon name="event" color="#121212" size={28} />
         </TouchableOpacity>
-        <Title>Ultimas movimentações</Title>
       </Area>
 
       <List

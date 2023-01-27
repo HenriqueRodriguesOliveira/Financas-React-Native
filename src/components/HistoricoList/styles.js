@@ -1,16 +1,20 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  background-color: #F0F3FF;
-  border-radius: 4px;
+  background-color: #FFF;
+  border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 14px;
-  padding: 12px;
+  padding: 18px;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: #eee;
 `;
 
 export const Tipo = styled.View`
   flex-direction: row;
+  justify-content: space-between;
 `;
 
 export const IconView = styled.View`
@@ -25,13 +29,24 @@ export const IconView = styled.View`
 `;
 
 export const TipoText = styled.Text`
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
-  font-style: italic;
+  font-weight: bold;
+`;
+
+export const Descricao = styled.Text`
+  color: #121212;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 `;
 
 export const ValorText = styled.Text`
   color: #121212;
   font-size: 22px;
+`;
 
+export const Data = styled.Text`
+  color: #ccc;
+  font-size: 15px;
 `;

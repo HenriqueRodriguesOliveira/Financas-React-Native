@@ -18,10 +18,10 @@ function AppRoutes(){
                 backgroundColor: '#FFF',
                 paddingTop: 20,
             },
-            drawerActiveBackgroundColor:'#3b3dbf',
+            drawerActiveBackgroundColor:'#121212',
             drawerActiveTintColor: '#FFF',
 
-            drawerInactiveBackgroundColor: '#F0F2FF',
+            drawerInactiveBackgroundColor: '#f1f1f1',
             drawerInactiveTintColor: '#121212'
           }}
         >

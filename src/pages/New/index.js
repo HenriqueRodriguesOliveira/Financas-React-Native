@@ -10,7 +10,6 @@ import { useNavigation } from '@react-navigation/native';
 
 export default function New() {
   const navigation = useNavigation();
-
   const [ labelInput, setLabelInput ] = useState('');
   const [ valueInput, setValueInput] = useState('');
   const [ type, setType ] = useState('receita');

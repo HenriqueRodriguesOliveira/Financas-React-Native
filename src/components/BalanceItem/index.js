@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react'
 import { Container, Label, Balance } from './styles'
+import Cartao from '../../assets/Cartão.png';
 
 export default function BalanceItem({ data }) {
 
@@ -7,12 +8,12 @@ export default function BalanceItem({ data }) {
     if(data.tag === 'saldo'){
       return{
         label: 'Saldo atual',
-        color: '3b3dbf'
+        color: '121212',
       }
     }else if(data.tag === 'receita'){
       return{
         label: 'Entradas de hoje',
-        color: '00b94a'
+        color: '00b94a',
       }
     }else{
       return{
@@ -22,9 +23,11 @@ export default function BalanceItem({ data }) {
     }
   }, [data])
   return (
-    <Container bg={labelName.color}>
+    <Container source={Cartao} resizeMode="contain">
       <Label> {labelName.label} </Label>
-      <Balance>R$ {data.saldo} </Balance>
+      <Balance> 
+        R$ {data.saldo},00
+      </Balance>
     </Container>
   )
 }

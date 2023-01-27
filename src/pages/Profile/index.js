@@ -11,7 +11,8 @@ export default function Profile(){
 
   return(
     <Container>
-      <Header/>
+      <Header title="Perfil"/>
+
       <Message>
         Hey, bem vindo de volta!
       </Message>

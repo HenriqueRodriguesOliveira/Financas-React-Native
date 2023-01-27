@@ -1,14 +1,14 @@
 import styled from 'styled-components/native';
 
 export const Background = styled.View`
-flex:1;
-background-color: #F0F4FF;
+  flex:1;
+  background-color: #FFF;
 `;
 
 export const Input = styled.TextInput`
   height: 50px;
   width: 90%;
-  background-color: #FFF;
+  background-color: #f1f1f1;
   font-size: 17px;
   padding: 0 8px;
   margin-bottom: 14px;
@@ -20,7 +20,7 @@ export const SubmitButton = styled.TouchableOpacity`
   height: 50px;
   align-items: center;
   justify-content: center;
-  background-color: #00b94a;
+  background-color: #000;
   border-radius: 4px;
 `;
 

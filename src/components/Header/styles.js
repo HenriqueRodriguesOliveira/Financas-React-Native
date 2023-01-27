@@ -13,11 +13,15 @@ export const Container = styled.SafeAreaView`
 
 export const Title = styled.Text`
   font-size: 22px;
-  margin-left: 8px;
+  color: #121212;
+  margin-left: 15px;
 `;
 
 
 export const ButtonMenu = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
 `;

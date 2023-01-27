@@ -7,7 +7,8 @@ import {
   AreaInput, 
   Input, 
   SubmitButton, 
-  SubmitText
+  SubmitText,
+  Logo
 } from '../SignIn/styles';
 
 import { AuthContext } from '../../contexts/auth';
@@ -31,6 +32,9 @@ export default function SignUp(){
         behavior={Platform.OS === 'ios' ? 'padding' : ''}
         enabled
       >
+        <Logo
+          source={require('../../assets/logo.png')}
+        />
 
         <AreaInput>
           <Input
