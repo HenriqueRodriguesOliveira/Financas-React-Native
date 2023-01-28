@@ -5,7 +5,7 @@
 <br>
 <br>
 
-TechFinacias
+TechFinanças
 </h1>
 
 <img src="https://user-images.githubusercontent.com/79226722/214984539-490cc7b9-54d8-4cee-878f-228fd4f8620a.png">
